@@ -1,0 +1,72 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente y fuentes alternativas */
+    display: flex; /* Utilizando flexbox para el diseño */
+    flex-direction: column; /* Colocando elementos en columna */
+    align-items: center; /* Centrando los elementos horizontalmente */
+    justify-content: center; /* Centrando los elementos verticalmente */
+    height: 100vh; /* Estableciendo la altura al 100% del viewport */
+    background-color: #d3d3d3; /* Color de fondo gris claro */
+    margin: 0; /* Eliminando el margen por defecto */
+}
+
+/* Estilos para los encabezados */
+h1 {
+    margin-bottom: 20px; /* Margen inferior de 20px */
+    border: #014c92 solid 1px; /* Borde sólido de color azul oscuro */
+    border-radius: 2%; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interior de 15px */
+    color: #014c92; /* Color de texto azul oscuro */
+    background-color: #65b5ff; /* Color de fondo azul claro */
+}
+
+/* Estilos para el contenedor del conversor */
+.converter {
+    display: flex; /* Utilizando flexbox para el diseño */
+    flex-direction: column; /* Colocando elementos en columna */
+    align-items: center; /* Centrando los elementos horizontalmente */
+    border: #014c92 solid 1px; /* Borde sólido de color azul oscuro */
+    border-radius: 2%; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interior de 20px */
+}
+
+/* Estilos para los campos de entrada y selección */
+input,
+select {
+    margin: 10px; /* Margen exterior de 10px */
+    padding: 5px; /* Espaciado interior de 5px */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+}
+
+/* Estilos para el botón */
+button {
+    padding: 5px 10px; /* Espaciado interior de 5px arriba y abajo, 10px izquierda y derecha */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+    cursor: pointer; /* Cursor de tipo puntero */
+    background-color: #65b5ff; /* Color de fondo azul claro */
+    border: solid 1px #65b5ff ; /* Borde sólido de color azul claro */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: inset; /* Sombra interior */
+}
+
+/* Estilos para el botón cuando se pasa el cursor sobre él */
+button:hover {
+    background-color: #014c92; /* Color de fondo azul oscuro */
+}
+
+/* Estilos para el encabezado cuando se pasa el cursor sobre él */
+h1:hover {
+    background-color: #0079eb; /* Color de fondo azul más oscuro */
+    color: aliceblue; /* Color de texto blanco */
+}
+
+/* Estilos para los párrafos */
+p {
+    margin: 10px 0; /* Margen superior e inferior de 10px */
+    font-size: 18px; /* Tamaño de fuente de 18px */
+}
+
+a{
+color: white;
+justify-content: left;
+}

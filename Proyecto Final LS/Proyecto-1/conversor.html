@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="stylec.css">
+    <link rel="icon" href="icono.png" type="image/x-icon">
+</head>
+<body>
+    <button class="button light-blue" ><a href="/index.html" class="light-blue" style="text-decoration: none;">Regresar</a></button>
+    <!-- Encabezado -->
+    <h1>Conversor de Unidades</h1>
+    
+    <!-- Contenedor del conversor -->
+    <div class="converter">
+        <!-- Input para ingresar el valor a convertir -->
+        <input type="number" id="valor" placeholder="Ingresa un valor">
+        
+        <!-- Selección de la unidad de origen -->
+        <select id="unidadOrigen" onchange="actualizarUnidadesDestino()">
+            <option value="milimetros">Milímetros</option>
+            <option value="centimetros">Centímetros</option>
+            <option value="metros">Metros</option>
+            <option value="kilometros">Kilómetros</option>
+            <option value="pulgadas">Pulgadas</option>
+            <option value="pies">Pies</option>
+            <option value="yardas">Yardas</option>
+            <option value="millas">Millas</option>
+            <option value="varas">Varas</option>
+        </select>
+        
+        <!-- Selección de la unidad de destino -->
+        <select id="unidadDestino">
+            <option value="milimetros">Milímetros</option>
+            <option value="centimetros">Centímetros</option>
+            <option value="metros">Metros</option>
+            <option value="kilometros">Kilómetros</option>
+            <option value="pulgadas">Pulgadas</option>
+            <option value="pies">Pies</option>
+            <option value="yardas">Yardas</option>
+            <option value="millas">Millas</option>
+            <option value="varas">Varas</option>
+        </select>
+        
+        <!-- Botón para realizar la conversión -->
+        <button onclick="convertir()">Convertir</button>
+        
+        <!-- Espacio para mostrar el resultado -->
+        <p id="resultado">Resultado: </p>
+        
+        <!-- Script para la lógica de conversión -->
+        <script src="scriptc.js"></script>
+    </div>
+</body>
+</html>

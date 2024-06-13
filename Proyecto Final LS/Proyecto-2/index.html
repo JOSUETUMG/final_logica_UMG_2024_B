@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juego de la Serpiente</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="contenedor">
+    <!-- Puntuación del juego -->
+    <div class="puntuacion">Puntuación: <span class="valor-puntuacion">0</span></div>
+    <!-- Canvas donde se dibuja el juego -->
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <!-- Ranking de jugadores -->
+    <div class="ranking">
+        <h2>Ranking</h2>
+        <div id="rankingList"></div>
+    </div>
+</div>
+<button class="btnestilo" ><a href="/index.html" class="btnestilo" style="text-decoration: none;">Regresar</a></button>
+<script src="game.js"></script>
+</body>
+</html>
