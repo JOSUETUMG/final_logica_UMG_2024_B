@@ -1,0 +1,30 @@
+.numero1{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.boton1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    width: 20%;
+    border: none;
+    padding: 12px;
+    color: rgb(8, 83, 33);
+    margin: 20px 0;
+    font-size: 16px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
